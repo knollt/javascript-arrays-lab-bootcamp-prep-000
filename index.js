@@ -21,11 +21,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten (name) {
-  return array.splice(name.length-1, 0, name)
+  return [array,...name]
 }
 
 function prependKitten(name) {
-  
+  return [name,...array]
 }
 
 function removeLastKitten() {
