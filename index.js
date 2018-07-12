@@ -24,3 +24,7 @@ function appendKitten (name) {
   return array.splice(name.length-1, 0, name)
 }
 
+function prependKitten(name) {
+  
+}
+
