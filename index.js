@@ -20,4 +20,7 @@ function destructivelyRemoveFirstKitten() {
   return array.shift()
 }
 
-function
+function appendKitten (name) {
+  return array.splice(name.length-1, 0, name)
+}
+
