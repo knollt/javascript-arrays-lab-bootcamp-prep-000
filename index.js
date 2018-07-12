@@ -1,3 +1,6 @@
-var kittens = ['Milo', 'Otis', 'Garfield']
+var array = ['Milo', 'Otis', 'Garfield']
 
-function 
+function kittens (array){
+  return array
+}
+
