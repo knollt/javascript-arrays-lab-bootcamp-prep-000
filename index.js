@@ -16,4 +16,8 @@ function destructivelyRemoveLastKitten() {
   return array.pop()
 }
 
-function 
+function destructivelyRemoveFirstKitten() {
+  return array.shift()
+}
+
+function
