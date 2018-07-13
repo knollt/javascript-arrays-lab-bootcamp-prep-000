@@ -5,8 +5,8 @@ function kittens (array){
 }
 
 function destructivelyAppendKitten (name) {
-  let array = ['Milo', 'Otis', 'Garfield']
-  return array.push(name)
+  let array2 = ['Milo', 'Otis', 'Garfield']
+  return array2.push(name)
   
 }
 
