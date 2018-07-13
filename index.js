@@ -1,7 +1,7 @@
 
 
 function kittens (array){
-  return array
+  var kittens 
 }
 
 function destructivelyAppendKitten (name) {
