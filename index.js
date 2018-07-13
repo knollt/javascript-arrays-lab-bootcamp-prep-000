@@ -5,7 +5,7 @@ function kittens (){
 }
 
 function destructivelyAppendKitten (name) {
-  return array.push(name)
+  return kittens.push(name)
   
 }
 
@@ -38,5 +38,5 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  return array.slice(1)
+  return kittens.slice(1)
 }
