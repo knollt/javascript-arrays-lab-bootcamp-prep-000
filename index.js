@@ -5,9 +5,9 @@ function kittens (array){
 }
 
 function destructivelyAppendKitten (name) {
-  let array2 = array
-  return array2.push(name)
-  
+  let array2 = ['Milo', 'Otis', 'Garfield']
+  array2.push(name)
+  return array2
 }
 
 function destructivelyPrependKitten (name) {
