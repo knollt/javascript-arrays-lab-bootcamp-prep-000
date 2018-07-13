@@ -1,4 +1,4 @@
-const array = ['Milo', 'Otis', 'Garfield']
+var array = ['Milo', 'Otis', 'Garfield']
 
 function kittens (array){
   return array
