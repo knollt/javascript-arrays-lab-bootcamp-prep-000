@@ -21,7 +21,7 @@ function destructivelyRemoveLastKitten() {
 }
 
 function destructivelyRemoveFirstKitten() {
-  // let removedItem = array.splice(0,1)
+  // array.splice(0,1)
   array.shift()
   return array
 }
