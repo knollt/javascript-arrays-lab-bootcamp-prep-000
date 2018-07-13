@@ -22,19 +22,19 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   // array.splice(0,1)
   array.shift()
-  return array
+  return kittens
 }
 
 function appendKitten (name) {
-  return array.concat(name)
+  return kittens.concat(name)
 }
 
 function prependKitten(name) {
-  return [name,...array]
+  return [name,...kittens]
 }
 
 function removeLastKitten() {
-  return array.slice(0, array.length-1)
+  return kittens.slice(0, array.length-1)
 }
 
 function removeFirstKitten() {
