@@ -5,25 +5,25 @@ function kittens (array){
 }
 
 function destructivelyAppendKitten (name) {
-  const array = ['Milo', 'Otis', 'Garfield']
+  let array = ['Milo', 'Otis', 'Garfield']
   return array.push(name)
   
 }
 
 function destructivelyPrependKitten (name) {
-  const array = ['Milo', 'Otis', 'Garfield']
+  let array = ['Milo', 'Otis', 'Garfield']
   return array.unshift(name)
 }
 
 function destructivelyRemoveLastKitten() {
-  const array = ['Milo', 'Otis', 'Garfield']
+  let array = ['Milo', 'Otis', 'Garfield']
   // array.splice(-1,1)
   array.pop()
   return array
 }
 
 function destructivelyRemoveFirstKitten() {
-  const array = ['Milo', 'Otis', 'Garfield']
+  let array = ['Milo', 'Otis', 'Garfield']
   // array.splice(0,1)
   array.shift()
   return array
