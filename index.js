@@ -1,12 +1,12 @@
-const array = ['Milo', 'Otis', 'Garfield']
+var array = ['Milo', 'Otis', 'Garfield']
 
 function kittens (array){
   return array
 }
 
 function destructivelyAppendKitten (name) {
-  
-  return array.push(name)
+  let array2 = array
+  return array2.push(name)
   
 }
 
