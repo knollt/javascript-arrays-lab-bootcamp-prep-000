@@ -1,4 +1,4 @@
-const array = ['Milo', 'Otis', 'Garfield']
+var array = ['Milo', 'Otis', 'Garfield']
 
 function kittens (array){
   return array
@@ -13,13 +13,11 @@ function destructivelyPrependKitten (name) {
 }
 
 function destructivelyRemoveLastKitten() {
-  array.pop()
-  return array
+  return array.pop()
 }
 
-function destructivelyRemoveFirstKitten (array) {
-  array.shift()
-  return array
+function destructivelyRemoveFirstKitten() {
+  return array.shift()
 }
 
 function appendKitten (name) {
