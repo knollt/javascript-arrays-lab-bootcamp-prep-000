@@ -13,13 +13,13 @@ function destructivelyPrependKitten (name) {
 }
 
 function destructivelyRemoveLastKitten() {
-  array.splice()
+  array.splice(array.length-1,1)
   
 }
 
 function destructivelyRemoveFirstKitten() {
-  return array.splice(0,1)
-  
+  array.splice(0,1)
+  return array
 }
 
 function appendKitten (name) {
